@@ -1,0 +1,122 @@
+{
+    "Coffee": [
+        {
+            "nama": "Cappuccino",
+            "foto": "images/produk/product_capuchino.jpg",
+            "size": "150 Ml",
+            "harga": "25.000",
+            "link": "https://tokopedia.com/cappucinoenak"
+        },
+        {
+            "nama": "Espresso",
+            "foto": "images/produk/product_espresso.jpg",
+            "size": "100 Ml",
+            "harga": "15.000",
+            "link": "https://tokopedia.com/Espressomaknyus"
+        },
+        {
+            "nama": "Mocha",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD9B1DaTuRGoBY_yFbeXYs2hWCHYLEWYVYIw&s",
+            "size": "200 Ml",
+            "harga": "15.000",
+            "link": "https://tokopedia.com/Mocha"
+        },
+        {
+            "nama": "Latte",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaJu8eDJA278sJtb8a5yTMe5pqfMAFD6N01Q&s",
+            "size": "100 Ml",
+            "harga": "15.000",
+            "link": "https://tokopedia.com/Latte"
+        }
+    ],
+    "Tea": [
+        {
+            "nama": "iced Tea",
+            "foto": "https://fajar.co.id/wp-content/uploads/2023/09/IMG_0741.jpg",
+            "size": "250 Ml",
+            "harga": "15.000",
+            "link": "https://tokopedia.com/estehmanis"
+        },
+        {
+            "nama": "Matcha",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzMPeRxyyZO9lRF2IPM0xSXu2oF6oA7JY3Dg&s",
+            "size": "250 Ml",
+            "harga": "25.000",
+            "link": "https://tokopedia.com/matcha"
+        },
+        {
+            "nama": "Lemon Iced Tea",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLThCT4eLdE6X8yorrlFpJSALOmh9EPI4dFw&s",
+            "size": "250 Ml",
+            "harga": "25.000",
+            "link": "https://tokopedia.com/icelemontea"
+        },
+        {
+            "nama": "Mix Berry Iced Tea",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRsqMheA9boORnATCvMlQSHKYk_pSvgumltQ&s",
+            "size": "250 Ml",
+            "harga": "25.000",
+            "link": "https://tokopedia.com/Mixberryicedtea"
+        }
+    ],
+    "Slice Cake": [
+        {
+            "nama": "Red Velvet",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIvKpwuaGS-pan_Hkg9H4_h1EF2d-dE4r35w&s",
+            "size": "1 Pcs",
+            "harga": "20.000",
+            "link": "https://tokopedia.com/redvelvetslicecake"
+        },
+        {
+            "nama": "Dark Choco",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDXl43pGOWA6jdJnnI7XHU_Z3wAThrxP3Qbw&s",
+            "size": "1 Pcs",
+            "harga": "20.000",
+            "link": "https://tokopedia.com/darkchocoslicecake"
+        },
+        {
+            "nama": "Cheese",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA1V79R5AiIqRYvQIApRZBasFPJ8MmOcVxOw&s",
+            "size": "1 Pcs",
+            "harga": "20.000",
+            "link": "https://tokopedia.com/cheeseslicecake"
+        },
+        {
+            "nama": "Coffee",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaJpJwcVW4kFnFdHd5PTZexfincM8wG6fblA&s",
+            "size": "1 Pcs",
+            "harga": "20.000",
+            "link": "https://tokopedia.com/redvelvet"
+        }
+    ],
+    "Food": [
+        {
+            "nama": "Nasi Goreng",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUXzQvo20IRS3pDdR_2jlcwRjRRaThx-E48w&s",
+            "size": "1 Pcs",
+            "harga": "25.000",
+            "link": "https://tokopedia.com/nasigoreng"
+        },
+        {
+            "nama": "Sate Ayam",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZf_doEj9gSgJBjRCE01eo77EN-PseLzLow&s",
+            "size": "1 Pcs",
+            "harga": "30.000",
+            "link": "https://tokopedia.com/sateayam"
+        },
+        {
+            "nama": "Bakso Komplit",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRsUZiLGcWoB9n2zkayovxsQlaCHEsBdT4g&s",
+            "size": "1 Pcs",
+            "harga": "15.000",
+            "link": "https://tokopedia.com/baksoenak"
+        },
+        {
+            "nama": "Nasi Pecel",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjD9QdDfTnp4tH_mjX_8FWT5HCO9cbWWwREw&s",
+            "size": "1 Pcs",
+            "harga": "20.000",
+            "link": "https://tokopedia.com/nasipecelkomplit"
+        }
+    ]
+}

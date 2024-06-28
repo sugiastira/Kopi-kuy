@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <title>Produk</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/produk.css">
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <style data-info="kode css bisa ditulis di bawah sini atau di css/produk.css">
+        .bg-cokelat {
+            background-color: #58230e important;
+        }
+    </style>
+</head>
+
+<body data-info="tulis kode bootstrap di baris 22">
+
+    <nav class="navbar navbar-dark bg-primary navbar-expand-lg bisadicopy">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo/logo_kuy.png" height="45" alt="image">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav11"
+                aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav11">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#our-seller">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact-us">Contact</a>
+                    </li>
+                </ul>
+                <a target="_blank" class="btn btn-outline-light ms-md-3"
+                    href="https://wa.me/6281290465033?text=Halo saya mau beli"><i class="bi bi-whatsapp"></i> Chat</a>
+            </div>
+        </div>
+    </nav>
+    <section class="riki-block produk text-center my-5 py-5">
+        <div class="container">
+            <h1 id="judul">Pilih Produk Anda</h1>
+            <p class="fs-4">Kualitas terbaik biji kopi pilihan fresh langsung dari petani</p>
+            <hr class="border border-primary border-3 opacity-75">
+
+            <!-- Ini Untuk Select -->
+
+            <div class="form-floating">
+                <select class="form-select " id="select_produk" aria-label="Floating label select example">
+                    <option selected disabled>-</option>
+                    <option value="Arabica">Kopi</option>
+                    <option value="Robusta">Teh</option>
+                    <option value="Liberika">Makanan</option>
+                </select>
+                <label for="select_produk">Pilih Produk</label>
+            </div>
+
+            <div id="baris_produk" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5">
+
+                <!--AWAL KOLOM PRODUK-->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_capuchino.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappuccino</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    250 Ml
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    25.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <!--AKHIR KOLOM PRODUK-->
+
+                <!--AWAL KOLOM PRODUK-->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_espresso.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kopi Hitam</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    10 Pcs
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    15.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <!--AKHIR KOLOM PRODUK-->
+
+
+                <!--AWAL KOLOM PRODUK-->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="images/produk/product_kopi_susu.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kopi Susu</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    10 Pcs
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    15.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <!--AKHIR KOLOM PRODUK-->
+
+                <!--AWAL KOLOM PRODUK-->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="data:image/jpeg;base64,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"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    10 Pcs
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    15.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <!--AKHIR KOLOM PRODUK-->
+                <!--AWAL KOLOM PRODUK-->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://cdn.consina.com/wp-content/uploads/2022/12/Hiker-pro.jpeg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Consina Hiker Pro</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    10 Pcs
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    15.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <!--AKHIR KOLOM PRODUK-->
+                <!--AWAL KOLOM PRODUK-->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://i0.wp.com/resepkoki.id/wp-content/uploads/2016/09/Resep-Tempe-Mendoan.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tempe Mendoan</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    6 Pcs
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    20.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <!--AKHIR KOLOM PRODUK-->
+                <!--AWAL KOLOM PRODUK-->
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="https://fajar.co.id/wp-content/uploads/2023/09/IMG_0741.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Es Teh Manis</h5>
+                            <div class="row hargasize my-4">
+                                <div class="col">
+                                    250ML
+                                </div>
+                                <div class="col text-primary fw-bold">
+                                    15.000
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100"><i class="bi bi-cart4"></i> Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <!--AKHIR KOLOM PRODUK-->
+
+            </div>
+        </div>
+    </section>
+    <footer class="riki-block footer-small py-5 bg-primary">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-8">
+                    <ul class="nav justify-content-center justify-content-md-start">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#our-seller">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#review">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact-us">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
+                    &copy; 2024 Kopi Kuy . All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/produk.js"></script>
+    <script data-info="bisa tulis kode js di js/produk.js ataupun di bawah sini">
+        var semua_produk = {
+            "kopi": [
+                {
+                    "nama": "Cappuccino",
+                    "foto": "images/produk/product_capuchino.jpg",
+                    "size": "150 Ml",
+                    "harga": "25.000",
+                    "link": "https://tokopedia.com/cappucinoenak"
+                },
+                {
+                    "nama": "Espresso",
+                    "foto": "images/produk/product_espresso.jpg",
+                    "size": "100 Ml",
+                    "harga": "15.000",
+                    "link": "https://tokopedia.com/Espressomaknyus"
+
+                }
+            ],
+            "teh": [
+                {
+                    "nama": "Es Teh Manis",
+                    "foto": "https://fajar.co.id/wp-content/uploads/2023/09/IMG_0741.jpg",
+                    "size": "250 Ml",
+                    "harga": "15.000",
+                    "link": "https://tokopedia.com/estehmanis"
+                }
+            ],
+            "makanan": [
+                {
+                    "nama": "Tempe mendoan",
+                    "foto": "https://i0.wp.com/resepkoki.id/wp-content/uploads/2016/09/Resep-Tempe-Mendoan.jpg",
+                    "size": "6 Pcs",
+                    "harga": "20.000",
+                    "link": "https://tokopedia.com/mendoanasik"
+                }
+            ],
+            "sports": [
+                {
+                    "nama": "Consina Hiker Pro",
+                    "foto": "https://cdn.consina.com/wp-content/uploads/2022/12/Hiker-pro.jpeg",
+                    "size": "41-43",
+                    "harga": "715.000",
+                    "link": "https://tokopedia.com/mendoanasik"
+                }
+            ]
+        }
+
+        console.log(semua_produk)
+        function updateSelect() {
+            select_produk.innerHTML = `<option selected disabled>-</option>`
+            Object.keys(semua_produk).forEach(kategori => {
+                select_produk.innerHTML += `<option value="${kategori}">${kategori}</option>`
+            })
+            console.log("Fungsi update select sudah berjalan ", Object.keys(semua_produk))
+        }
+        updateSelect()
+        var produk_pilihan = []
+        select_produk.onchange = function () {
+            baris_produk.innerHTML = ""
+            var pilihan = select_produk.value
+            produk_pilihan = semua_produk[pilihan]
+            console.log("produk pilihan dari " + pilihan, produk_pilihan)
+            updateTampilan()
+            localStorage.setItem(historiku)
+        }
+        baris_produk.innerHTML = ""
+
+        function updateTampilan() {
+            produk_pilihan.forEach(produk => {
+                baris_produk.innerHTML += `<!--AWAL KOLOM PRODUK-->
+        <div class="col mb-4">
+            <div class="card">
+                <img src="${produk.foto}"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">${produk.nama}</h5>
+                    <div class="row hargasize my-4">
+                        <div class="col">
+                            ${produk.size}
+                        </div>
+                        <div class="col text-primary fw-bold">
+                            ${produk.harga}
+                        </div>
+                    </div>
+                    <a href="${produk.link}" class="btn btn-primary w-100"><i class="bi bi-cart4"></i> Beli</a>
+                </div>
+            </div>
+        </div>
+        <!--AKHIR KOLOM PRODUK-->`
+            })
+            console.log("update tampilan dijalankan")
+        }
+        var sumber = "https://rikikurnia.com/prakerja/api/kopi"
+        var sumber2 = "data.json"
+        $.getJSON(sumber2).then(data_dari_json => {
+            semua_produk = data_dari_json
+            updateSelect()
+        })
+
+    </script>
+
+</body>
+
+</html>
