@@ -1,11 +1,12 @@
 @import url(../vendor/bootstrap/bootstrap-icons.css);
 
 body {
+    background-color: rgb(210, 245, 140);
     font-family: 'Poppins';
 }
 
 footer a.nav-link {
-    color: #fff;
+    color: #ffffff;
 }
 
 footer {
@@ -32,3 +33,58 @@ section.produk {
 }
 
 /* Tambahan css produk tulis setelah kode ini */
+
+.card a.btn {
+    color: white !important;
+    background-color: rgb(64, 90, 11);
+    transition: all .3s ease;
+}
+
+.card a.btn:hover {
+    background-color: rgb(64, 90, 11);
+    color: black !important;
+    transform: scale();
+}
+
+#produk_not_found {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 330px;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 30px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#back-top {
+    top: -30px;
+    right: 40px;
+}
+
+@media (max-width: 600px) {
+    #back-top {
+        width: fit-content;
+        top: -50px;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+}
+
+.bg-nav {
+    background-color: #73483f;
+}
+
+.bg-cok {
+    background-color: #f4ede5;
+}
+
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}

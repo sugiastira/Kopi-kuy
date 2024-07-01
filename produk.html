@@ -12,16 +12,17 @@
     <link rel="stylesheet" href="css/produk.css">
     <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.3.min.js"></script>
+
     <style data-info="kode css bisa ditulis di bawah sini atau di css/produk.css">
         .bg-cokelat {
-            background-color: #58230e important;
+            background-color: #58230e !important;
         }
     </style>
 </head>
 
 <body data-info="tulis kode bootstrap di baris 22">
 
-    <nav class="navbar navbar-dark bg-primary navbar-expand-lg bisadicopy">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg bisadicopy">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="images/logo/logo_kuy.png" height="45" alt="image">
@@ -52,6 +53,7 @@
                     href="https://wa.me/6281290465033?text=Halo saya mau beli"><i class="bi bi-whatsapp"></i> Chat</a>
             </div>
         </div>
+
     </nav>
     <section class="riki-block produk text-center my-5 py-5">
         <div class="container">
@@ -64,9 +66,10 @@
             <div class="form-floating">
                 <select class="form-select " id="select_produk" aria-label="Floating label select example">
                     <option selected disabled>-</option>
-                    <option value="Arabica">Kopi</option>
-                    <option value="Robusta">Teh</option>
-                    <option value="Liberika">Makanan</option>
+                    <option value="Coffee">Coffee</option>
+                    <option value="Tea">Tea</option>
+                    <option value="Slice Cake">Slice Cake</option>
+                    <option value="Food">Food</option>
                 </select>
                 <label for="select_produk">Pilih Produk</label>
             </div>
@@ -218,7 +221,7 @@
             </div>
         </div>
     </section>
-    <footer class="riki-block footer-small py-5 bg-primary">
+    <footer class="riki-block footer-small py-5 bg-dark">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-md-8">
@@ -244,6 +247,7 @@
                 <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
                     &copy; 2024 Kopi Kuy . All Rights Reserved
                 </div>
+
             </div>
         </div>
     </footer>
@@ -312,7 +316,6 @@
             produk_pilihan = semua_produk[pilihan]
             console.log("produk pilihan dari " + pilihan, produk_pilihan)
             updateTampilan()
-            localStorage.setItem(historiku)
         }
         baris_produk.innerHTML = ""
 
